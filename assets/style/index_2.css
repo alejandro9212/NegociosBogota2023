@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    background-color:rgb(48, 230, 199);
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: rgba(44, 248, 3, 0.925) ;
+    position: sticky;
+    top:1px;
+    transition: all 1s ease;
+    
+} 
+
+.secc01{
+   
+    background-image:linear-gradient(
+        
+        rgba(67, 156, 15, 0.233),
+        rgba(14, 131, 76, 0.253)), url('../../imagenes/3042.jpg'); 
+        /* rgba(14, 131, 76, 0.253)), url('http://localhost/negocios_bogota/imagenes/3042.jpg'); */
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), inset;
+    
+}
+
+.emblema{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    background-color: rgba(13, 13, 14, 0.281);
+    color:rgba(54, 238, 8, 0.925);
+    z-index: 200;
+    min-width: 70%;
+    min-height: 70vh;
+    margin-left: 3.5em;
+    font-size: 54px;
+    border-radius: 10px;
+    box-shadow:
+       inset 0 -3em 3em rgba(20, 20, 20, 0.1),
+             0 0  0 2px rgba(255, 255, 255, 0),
+             0.3em 0.3em 1em rgba(25, 221, 7, 0.3);
+    transition: all 1s ease;
+    
+}
+.emblema>h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    text-shadow: 2px 2px #fff;
+    border-bottom: 15px solid #05f525;
+  
+}
+@media (max-width: 1716px)    {
+    .emblema{
+        min-width: 100%; 
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 3000px) {
+    .emblema{
+        min-width: 100%; 
+        margin-left: 0;
+    }
+}
+
+.secc02{
+    background-image:linear-gradient(
+        
+        rgba(17, 117, 32, 0.418),
+        rgba(16, 172, 50, 0.493)),url("../../imagenes/lara-baerisw.jpg");
+    
+   
+}
+
+.secc03{
+    background-image: url("../../imagenes/microsoft-edge-1N49Cn7P0Fg-unsplash.jpg");
+}
+
+.secc04{
+    background-image: url("../../imagenes/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+}
+
+.secc05{
+    background-image: url("../../imagenes/nab001.png");
+}
+
+.secc-car{
+  background-color: rgba(52, 212, 11, 0.61);
+  width: 100%;
+ 
+   
+}
+.card-inicio{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer{
+    background-color: rgba(10, 10, 10, 0.993);
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    color: rgb(238, 240, 241);
+    margin-top: auto;
+  }
+
+
+  /* .navbar{
+    background-color: black;
+  } */
+ 
